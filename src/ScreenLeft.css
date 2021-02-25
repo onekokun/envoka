@@ -1,0 +1,140 @@
+@font-face {font-family: "Radikal"; src: url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.eot"); src: url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.woff") format("woff"), url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.svg#Radikal") format("svg"); }
+.screenLeft{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 39.75rem;
+    height: 48rem;
+    background: transparent linear-gradient(140deg, #58CFE6 0%, #366BB1 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 4px 0px 6px #00000029;
+    
+}
+
+.screenLeft > .t1{
+    position: absolute;
+    top: 4rem;
+    left: 30rem;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid rgb(255, 255, 255);
+    border-bottom: 50px solid transparent;
+    opacity: 0.12;
+  
+}
+
+.screenLeft > .t2{
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid white;
+    border-bottom: 50px solid transparent;
+    opacity: 0.12;
+}
+
+.screenLeft > .t3{
+    position: absolute;
+    top: 6rem;
+    left:4rem;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid white;
+    border-bottom: 50px solid transparent;
+    opacity: 0.12;
+}
+.screenLeft > .t4{
+    position: absolute;
+    bottom: 10rem;
+    left: 30rem;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid white;
+    border-bottom: 50px solid transparent;
+    opacity: 0.12;
+}
+
+.screenLeft > .t5{
+    position: absolute;
+    bottom: 4rem;
+    left:4rem;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid rgb(255, 255, 255);
+    border-bottom: 50px solid transparent;
+    opacity: 0.12;
+
+  
+}
+
+.screenLeft > h4{
+    position: absolute;
+    top: 39px;
+    left: 56px;
+    width: 82px;
+    height: 23px;
+    text-align: left;
+    font: normal normal bold 20px/25px Radikal;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.screenLeft > .p1{
+    position: absolute;
+    top: 13.5rem;
+    left: 23.938rem;
+    width: 11.313rem;
+    height: 19.75rem;
+    opacity: 1;
+}
+
+.screenLeft > .p2{
+    position: absolute;
+    top: 17.188rem;
+    left: 4.5rem;
+    width: 20.438rem;
+    height: 24.063rem;
+
+    opacity: 1;
+}
+
+@media (max-width:1308px)
+{
+    .screenLeft{
+        width: 100%;
+    }
+}
+
+@media (max-width: 818px)
+{
+    .screenRight{
+        margin-left: 5%;
+    }
+
+    .screenLeft > .p1{
+        display: none;
+    }
+
+}
+
+@media (max-width: 713px)
+{
+    
+    .screenLeft > .p2{
+        display: none;
+    }
+
+    .screenLeft {
+        height: 100px;
+    }
+
+    .screenLeft > .t{
+        display: none;
+    }
+}
+
